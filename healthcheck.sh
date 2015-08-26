@@ -1,5 +1,6 @@
 #!/bin/bash
 # This script will do a quick check on CPU, Process, Disk Usage and Memory status.
+# I got the idea from Yevhen Duma script.
 
 echo "
 
