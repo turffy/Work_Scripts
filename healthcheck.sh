@@ -173,4 +173,10 @@ ${TOTALBC}GB\t${USEDBC}GB \t${FREEBC}GB\t$(($FREEMEM * 100 / $TOTALMEM  ))%
 Total\tUsed\tFree\t%Free
 
 ${TOTALSBC}GB\t${USEDSBC}GB\t${FREESBC}GB\t$(($FREESWAP * 100 / $TOTALSWAP  ))%
+
+*********************************************************************
+                     Hardware
+*********************************************************************
+`hplog -v`
+
 "
