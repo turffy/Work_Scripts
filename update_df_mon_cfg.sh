@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for i in `cat /home/ct7825/WORKSPACE/dfmonserv_list`;do
+for i in `cat /home/WORKSPACE/dfmonserv_list`;do
     echo " Backup df_mon.cfg on $i .........."
     ssh $i "cp -p /var/opt/OV/conf/OpC/df_mon.cfg /var/opt/OV/conf/OpC/df_mon.cfg_T01374669_20151202"
     echo " Updating df_mon.cfg on $i........"
